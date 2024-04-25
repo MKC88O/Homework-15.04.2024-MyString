@@ -146,7 +146,7 @@ public:
 	String ToLower()  {
 		for (int i = 0; i < length; i++) {
 			char Char = text[i];
-			if ((Char >= 'A' && Char <= 'Z') || (Char >= 'а' && Char <= 'я')) {
+			if ((Char >= 'A' && Char <= 'Z') || (Char >= 'А' && Char <= 'Я')) {
 				char lower = Char + 32;
 				text[i] = lower;
 			}
